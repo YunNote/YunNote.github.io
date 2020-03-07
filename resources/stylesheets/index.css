@@ -1,6 +1,6 @@
 * {padding:0; margin: 0;}
 a {text-decoration: none;}
-html , body {width: 100%; height:100%; font-family: 'Noto Sans', sans-serif; font-size: 16px}
+html , body {width: 100%; font-family: 'Noto Sans', sans-serif; font-size: 16px}
 
 /* 전체적인 layout */
 .wrap {max-width: 768px; height: 100%; background-color: #E5E5E5; position: relative; margin: 0 auto;}
@@ -25,12 +25,12 @@ html , body {width: 100%; height:100%; font-family: 'Noto Sans', sans-serif; fon
 .my-career .career-wrap .career-contents-wrap {display:inline-block; width:calc(100% - 142px); padding:10px 0; box-sizing: border-box;}
 .my-career .career-wrap .career-contents-wrap .career-title {font-size: 1rem; font-weight: bold;padding: 5px;}
 .my-career .career-wrap .career-contents-wrap .career-contents {font-size: 0.75rem; color: rgba(0,0,0,0.5); padding: 5px;}
-.my-career .career-wrap .career-contents-wrap .career-contents .step { margin-bottom: 0.3rem; }
+.my-career .career-wrap .career-contents-wrap .career-contents .step { margin-bottom: 0.3rem; word-break:break-word;}
 
 /* 하단부 소셜 */
 .my-social{bottom: 0; }
 
-.my-social .my-social-wrap {position: relative; text-align: center; margin-top:20px;}
+.my-social .my-social-wrap {position: relative; text-align: center; padding: 30px 5px;}
 .my-social .my-social-wrap .my-social-logo-wrap {position: relative; display: inline-block; width: 48px; height: 48px; border-radius: 50%; box-sizing:  border-box; vertical-align: middle; margin : 0 10px;}
 .my-social .my-social-wrap .my-social-logo-wrap img {width: 4rem; height: auto; position: absolute;}
 .my-social .my-social-wrap .my-social-logo-wrap .icon {width: 48px;height:48px;line-height: 48px;}
