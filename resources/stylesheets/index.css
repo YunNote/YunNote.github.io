@@ -1,0 +1,32 @@
+* {padding:0; margin: 0;}
+a {text-decoration: none;}
+html , body {width: 100%; height:100%; font-family: 'Noto Sans', sans-serif; font-size: 16px}
+
+/* 전체적인 layout */
+.wrap {max-width: 768px; height: 100%; background-color: #E5E5E5; position: relative; margin: 0 auto;}
+.wrap  div {max-width:660px; margin: 0 auto; position: relative;}
+
+/* 상단부 내 정보 */
+.my-info{  top: 0; padding: 2rem 0;}
+
+.my-info .my-img {text-align: center;}
+.my-info .my-img img{ width: 8rem;height: auto;  border-radius: 50%;}
+.my-info .my-name p{ text-align: center; font-size: 2rem; color:#B7ADAD;}
+.my-info .my-company p { text-align: center; font-size: 0.75rem; color:#B7ADAD;}
+
+/* 중간 개인 커리어 */
+.my-career{ height: 60%; border-top: 1px dashed #CBC9C9; border-bottom: 1px dashed #CBC9C9;}
+.my-career .career-wrap {background-color: gray; height: 142px; position: relative; }
+
+.my-career .career-wrap .carrer-logo {float: left;width:142px;height:142px; position: relative}
+.my-career .career-wrap .carrer-logo .carrer-logo-wrap {width: 6rem; height: 6rem;  border-radius: 50%; background-color: white;position: absolute; top: 50%;left: 50%;transform: translate(-50%,-50%)}
+.my-career .career-wrap .carrer-logo .carrer-logo-wrap img {width: 5rem; height: auto; position: absolute; top: 50%;left: 50%;transform: translate(-50%,-50%)}
+
+.my-career .career-wrap .carrer-contents-wrap {display:inline-block; width:calc(100% - 142px); padding:10px 0; box-sizing: border-box;}
+.my-career .career-wrap .carrer-contents-wrap .carrer-title {font-size: 1rem; font-weight: bold;padding: 5px;}
+.my-career .career-wrap .carrer-contents-wrap .carrer-contents {font-size: 0.75rem; color: rgba(0,0,0,0.5); padding: 5px;}
+
+/* 하단부 소셜 */
+.my-social{bottom: 0;height:15%; }
+
+
