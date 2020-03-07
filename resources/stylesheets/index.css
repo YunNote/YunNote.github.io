@@ -3,7 +3,7 @@ a {text-decoration: none;}
 html , body {width: 100%; font-family: 'Noto Sans', sans-serif; font-size: 16px}
 
 /* 전체적인 layout */
-.wrap {max-width: 768px; height: 100%; background-color: #E5E5E5; position: relative; margin: 0 auto;}
+.wrap {max-width: 768px; height: 100%; background-color: #FDFDFD; position: relative; margin: 0 auto;box-shadow: 3px 3px 3px 3px #f9f9f9;}
 .wrap  div {max-width:660px; margin: 0 auto; position: relative;}
 
 /* 상단부 내 정보 */
