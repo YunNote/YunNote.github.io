@@ -22,8 +22,7 @@ let socialModule = () => {
     };
 
     let mySocialLinkEvent = (e) => {
-        const {currentTarget} = e;
-        const {type} = currentTarget.dataset;
+        const {type} = e.currentTarget.dataset;
         window.open(getSocialLink(type), '_blank');
     };
 
