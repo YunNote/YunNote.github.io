@@ -30,14 +30,18 @@ html , body {width: 100%; font-family: 'Noto Sans', sans-serif; font-size: 16px}
 /* 하단부 소셜 */
 .my-social{bottom: 0; }
 
-.my-social .my-social-wrap {position: relative; text-align: center; padding: 30px 5px;}
-.my-social .my-social-wrap .my-social-logo-wrap {position: relative; display: inline-block; width: 48px; height: 48px; border-radius: 50%; box-sizing:  border-box; vertical-align: middle; margin : 0 10px;}
-.my-social .my-social-wrap .my-social-logo-wrap img {width: 4rem; height: auto; position: absolute;}
+.my-social .my-social-wrap {position: relative; text-align: center; padding: 20px 5px;}
+.my-social .my-social-wrap .my-social-logo-wrap {position: relative; display: inline-block; width: 48px; height: 48px; border-radius: 50%; box-sizing:  border-box; vertical-align: middle; margin : 0 10px; cursor:pointer;}
+/*.my-social .my-social-wrap .my-social-logo-wrap img {width: 4rem; height: auto; position: absolute;}*/
 .my-social .my-social-wrap .my-social-logo-wrap .icon {width: 48px;height:48px;line-height: 48px;}
 
 /* Font Awesome */
-.my-social .my-social-wrap .my-social-logo-wrap .icon.fa-google{ color: white; background-color: #242a30; border-radius: 50%; font-size: 2rem;}
+.my-social .my-social-wrap .my-social-logo-wrap .icon.fa-tistory{ color: white; background-color: #242a30; border-radius: 50%; font-size: 2rem;}
 .my-social .my-social-wrap .my-social-logo-wrap .icon.fa-github{ color: #24292e; background-color: white; border-radius: 50%; font-size: 3.4rem;}
 .my-social .my-social-wrap .my-social-logo-wrap .icon.fa-instagram{color: white;font-size: 2rem;border-radius: 50%;background: #f09433;background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );}
 .my-social .my-social-wrap .my-social-logo-wrap .icon.fa-facebook {background-color: #3b5998; border-radius: 50%; color: white; font-size: 2rem;}
 .my-social .my-social-wrap .my-social-logo-wrap .icon.fa-linkedin{color: white;background-color: #0e76a8;border-radius: 50%; font-size: 2rem;}
+
+
+.my-copyright {border-top: 1px dashed #CBC9C9; }
+.my-copyright p {margin-top: 5px;    font-size: 1rem;text-align: center;color: #B7ADAD;}
