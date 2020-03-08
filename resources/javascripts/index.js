@@ -37,5 +37,5 @@ window.onload = () => {
     let socialList = document.querySelectorAll(`.social-event`);
     socialList.forEach(v => {
         v.addEventListener("click" , socialModuleEvent.mySocialLinkEvent);
-    })
-}
+    });
+};
